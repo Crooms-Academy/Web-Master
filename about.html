@@ -1,268 +1,181 @@
 <html>
-
-<head>
-    <title>About</title>
-	
-   <link href="https://fonts.googleapis.com/css?family=Kadwa:700|Quicksand" rel="stylesheet">
-    <style>
-        div.hero {
-            background-image: url("building.jpg");
-            width: 100%;
-            height: 600px;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0.8;
-            filter: alpha(opacity=50);
-        }
-        h1 {
-            font-family: 'Quicksand', sans-serif;
-            z-index: 10;
-            position: absolute;
-            margin-left: 42%;
-            font-size: 45px;
-            margin-top: 230px;
-        }
-        .flex-box {
-            width: 100%;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-        }
-        .flex-item {
-            display: inline-block;
-            width: 20%;
-            height: auto;
-            margin: 2.5%;
-            min-width: 150px;
-            position: relative;
-            overflow: hidden;
-        }
-        .flex-item img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-        .about {
-            width: 100%;
-            height: 500px;
-            background-color: cornflowerblue;
-            margin-top: -15px;
-            position: absolute;
-            z-index: 10;
-        }
-        .about3 {
-            width: 100%;
-            height: 200px;
-            background-color: black;
-            margin-top: 200px;
-            position: absolute;
-            z-index: 10;
-        }
-        .about2 {
-            width: 50%;
-            height: 500px;
-            background-color: black;
-            z-index: 10;
-        }
-        .about4 {
-            width: 20%;
-            height: 200px;
-            background-color: cornflowerblue;
-            z-index: 10;
-            margin-left: 80%;
-            margin-top:
-        }
-        .logo {
-            width: 60%;
-            margin-left: 20%;
-            margin-top: 190px;
-        }
-        h1.intro {
-            color: white;
-            margin-top: 90px;
-            margin-left: 17%;
-        }
-        h1.texttitle {
-            margin-left: 53%;
-            color: white;
-            margin-top: -450px;
-            position: absolute;
-            text-align:center;
-        }
-        p.text {
-            color: white;
-            margin-left: 70%;
-            font-family: 'Quicksand', sans-serif;
-            position: absolute;
-            margin-top: -320px;
-            width: 40%;
-            font-size: 25px;
-        }
-        .pictures {
-            margin-top: 500px;
-        }
-        h2 {
-           font-family: 'Kadwa', serif;
-            margin-left:10%;
-            font-weight:900;
-            font-size:30px;
-        }
-        body {
-            overflow-x: hidden;
-            margin: 0;
-        }
-        img.next {
-            width: 35%;
-            margin-left: 30%;
-            margin-top: 55px;
-        }
-        h1.next {
-            color: white;
-            position: absolute;
-            margin-top: -120px;
-            margin-left: 30%;
-        }
-        img.back {
-            position: absolute;
-            z-index: 30;
-            width: 5%;
-            margin-top: 55px;
-            margin-left: 20px;
-        }
-        ul {
-            font-size: 40px;
-            margin-left: 59%;
-            color: white;
-            margin-top: -270px;
-            font-family: 'Quicksand', sans-serif;
-        }
-        
-
-        .flex-item img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-        @media only screen and (max-width:800px) 
-            .flex-item {
-                width: 30.33%;
-            }
-        }
-        @media only screen and (max-width:560px) {
-            .flex-item {
-                width: 45%;
-            }
-        }
-        @media only screen and (max-width:360px) {
-            .flex-item {
-                width: 100%;
-            }
-        }
-        
-        div.price{
-            background-color: cornflowerblue;
-            color:white;
-            padding:100px;
-            width:30%;
-            margin-left:35%;
-            font-family: 'Quicksand', sans-serif;
-        }
-        
-        h1.pricetext{
-            z-index:10;
-            color:white;
-            margin-left:120px;
-            position:absolute;
-            margin-top:-30px;
-        }
-        
-        h1.leadertext{
-            margin-top:520px;
-            position:absolute;
-        }
-        
-        p.paragraph1{
-            margin-top:300px;
-            font-family: 'Quicksand', sans-serif;
-            font-size:40px;
-            padding:300px;
-        }
-        
-        h1.infotitle{
-            margin-top:-200px;
-            margin-left:40%;
-        }
-        
-        dl{
-            font-size:35px;
-            font-family: 'Quicksand', sans-serif;
-            margin-left:20%;
-            width:50%;
-            margin-top:-100px;
-        }
-        
-        dt{
-            margin-top:100px;
-        }
-        
-        img.team{
-            margin-left:20%;
-        }
-        @media only screen and (max-width: 1000px) {
-       .about{
-	   width:130%;
-	   }
-	   .listtext{
-	   font-size:200%;
-	   }
-	   body{
-	   margin-right:-30%;
-	   }
-	   }
-    </style>
-</head>
-
-<body>
-    <h1>What is Crib?</h1>
-    <a href="index.html"><img src="back.png" class="back"></a>
-    <div class="hero"></div>
-
-    <div class="about">
-        <div class="about2">
-            <h1 class="intro">Who are We?</h1><img class="logo" src="logo.png"></div>
-        <h1 class="texttitle">Our Products will Blow Your Mind ??</h1>
-        <p class="text">What We Do:</p>
-        <ul class="listtext">
-            <li>Artificial Intellegence</li>
-            <li>Neural Networks</li>
-            <li>Powerful Hardware</li>
-            <li>Groundbreaking Tech</li>
-        </ul>
-    </div>
-    
-    <h1 class="leadertext">About Us:</h1>
-    
-    <p class="paragraph1">Crib was founded on the princibles that powerful AI should be available to everyone, and we deliver on that promeise with products like the Crib Home.</p>
-    
-     <h1 class="infotitle">Information:</h1>
-    
-    <dl>
-    <dt><b>Where Did Our Journey Begin?</b></dt>
-    <dd>Crib was founded in Orlando Florida in a Garage. Our Founders Mark Bruckert, Timmothy Sheehan, and Kasey Bartholemew had a dream.</dd>
-        <dt><b>Where are You Currently Located?</b></dt>
-    <dd>Our Locations Include: Orlando, New York, Mountain View, and Boston.</dd>
-        <dt><b>The Team:</b></dt>
-    </dl>
-
-<img class="team" src="team.jpg">
-
-        <div class="about3">
-            <a href="ai.html"><div class="about4"><img src="forward.png" class="next"></div></a>
-            <h1 class="next">Our AI</h1>
-        </div>
-</body>
-
+	<head>
+		<title>About</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Kadwa:700|Quicksand" rel="stylesheet">
+		<style>
+			body, html
+			{
+				font-family:'Quicksand', sans-serif;
+				font-size:125%;
+				margin:0;
+				padding:0;
+			}
+			header
+			{
+				background-image: url("building.jpg");
+				background-attachment: fixed;
+            			background-repeat: no-repeat;
+				opacity: 0.8;
+            			background-size: cover;
+				width:100%;
+				height:15em;
+			}
+			.back
+			{
+				width:5%;
+			}
+			.forward
+			{
+				width:15%;
+			}
+			.titletext
+			{
+				height:1em;
+				width:100%;
+				text-align:center;
+			}
+			article
+			{
+				color:white;
+				width:100%;
+				height:20em;
+				text-align:center;
+			}
+			.aboutleft
+			{
+				background-color:black;
+				width:50%;
+				float:left;
+				height:15em;
+			}
+			.aboutright
+			{
+				background-color:cornflowerblue;
+				width:50%;
+				height:15em;
+				float:left;
+			}
+			.logo
+			{
+				width:25%;
+			}
+			aside
+			{
+				text-align:center;
+				padding-left:20%;
+				padding-right:20%;
+			}
+			.bottombar
+			{
+				width:100%;
+				height:8em;
+				text-align:center;
+				padding-top:2em;
+			}
+			.bottomtext
+			{
+				width:70%;
+				float:left;
+				padding-top:2em;
+				height:8em;
+				background-color:black;
+				color:white;
+			}
+			.bottomarrow
+			{
+				width:30%;
+				padding-top:2em;
+				float:left;
+				height:8em;
+				background-color:cornflowerblue;
+			}
+			@media only screen and (max-width: 1000px) {
+				.aboutleft
+			{
+				background-color:black;
+				width:100%;
+				float:left;
+				height:15em;
+			}
+			.aboutright
+			{
+				background-color:cornflowerblue;
+				width:100%;
+				height:15em;
+				float:left;
+			}
+			.bottomtext
+			{
+				width:70%;
+				float:left;
+				padding-top:2em;
+				height:8em;
+				display:none;
+				background-color:black;
+				color:white;
+			}
+			.bottomarrow
+			{
+				width:100%;
+				padding-top:2em;
+				float:left;
+				height:8em;
+				background-color:cornflowerblue;
+			}
+			.back
+			{
+				width:20%;
+			}
+			.forward
+			{
+				width:40%;
+			}
+			.teampic
+			{
+				width:100%;
+			}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav><a href="index.html"><img src="back.png" class="back"></a></nav>
+			<div class="titletext"><h1>About Us</h1></div>
+		</header>
+		<article>
+			<div class="aboutleft">
+				<h2>Who are we?</h2>
+				<img src="logo.png" alt="Crib" class="logo">
+			</div>
+			<div class="aboutright">
+				<h2>What we do</h2>
+				<ul>
+					<li>Artificial Intelligence</li>
+					<li>Neural Networks</li>
+					<li>Powerful Hardware</li>
+					<li>Groundbreaking Tech</li>
+				</ul>
+			</div>
+		</article>
+		<aside>
+			<h2>About Us:</h2>
+			<p>Crib was founded on the princibles that powerful AI should be available to everyone, and we deliver on that promeise with products like the Crib Home.</p>    
+			<h1>Information:</h1>
+			<h2>Where Did Our Journey Begin?</h2>
+			<p>Crib was founded in Orlando Florida in a Garage. Our Founders Mark Bruckert, Timmothy Sheehan, and Kasey Bartholemew had a dream.</p>
+			<h2>Where are you Currently Located?</h2>
+			<p>Our Locations Include: Orlando, New York, Mountain View, and Boston.</p>'
+			<h2>The Team</h2>
+			<img class="teampic" src="team.jpg">
+		</aside>
+		<div class="bottombar">
+			<div class="bottomtext">
+				<h1>Our AI</h1>
+			</div>
+			<div class="bottomarrow">
+				<img src="forward.png" class="forward">
+			</div>
+		</div>
+	</body>
 </html>
