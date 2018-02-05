@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-    <head>
-        <title>Home</title>
-        <link rel="stylesheet" href="main.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="utf-8">
-    </head>
-
-
-<head>
-    <title>Navigation</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <style>
 body, html
 {
     padding:0;
@@ -66,8 +51,36 @@ h1
     color:white;
     font-family:'Quicksand', sans-serif;
 }
-	    
-	    /* Animation */
+/* About Page */
+.aboutback
+{
+	background-image:url("img/building.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+}
+nav
+{
+	width:100%;
+	margin:0;
+	height:2em;
+}
+header
+{
+	width:30%;
+	margin-left:35%;
+	position:absolute;
+}
+.back
+{
+	position:fixed;
+	width:8em;
+}
+.back-button
+{
+    width:1em;
+    border:none;
+}
+/* Animation */
 @keyframes homelogo
 {
     from {margin-top:0%; opacity:0;}
@@ -122,21 +135,3 @@ h1
 		margin:0;
 	}
 }
-    </style>
-
-</head>
-
-
-    <body style="height:100%;background-color:#3F54BD;">
-		<div class="logobox">
-			<img class="homelogo" src="logo.png" alt="CRIB">
-		</div>
-		<nav class="homenav">
-			<a href="about.html"><div id="one" class="header-button"><h1 class="header-button-text">About Crib</h1></div></a>
-			<a href="ai.html"><div id="two" class="header-button"><h1 class="header-button-text">Our AI</h1></div></a>
-			<a href="Product.html"><div id="three" class="header-button"><h1 class="header-button-text">Our Product</h1></div></a>
-			<a href="resources.html"><div id="four" class="header-button"><h1 class="header-button-text">Resources</h1></div></a>
-		</nav>
-    </body>
-
-</html>

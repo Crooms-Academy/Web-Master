@@ -2,6 +2,7 @@
 
 <head>
     <title>About</title>
+	
    <link href="https://fonts.googleapis.com/css?family=Kadwa:700|Quicksand" rel="stylesheet">
     <style>
         div.hero {
@@ -9,13 +10,11 @@
             width: 100%;
             height: 600px;
             background-attachment: fixed;
-            background-position: ;
             background-repeat: no-repeat;
             background-size: cover;
             opacity: 0.8;
             filter: alpha(opacity=50);
         }
-
         h1 {
             font-family: 'Quicksand', sans-serif;
             z-index: 10;
@@ -24,7 +23,6 @@
             font-size: 45px;
             margin-top: 230px;
         }
-
         .flex-box {
             width: 100%;
             position: relative;
@@ -33,7 +31,6 @@
             flex-wrap: wrap;
             justify-content: flex-start;
         }
-
         .flex-item {
             display: inline-block;
             width: 20%;
@@ -43,31 +40,11 @@
             position: relative;
             overflow: hidden;
         }
-
         .flex-item img {
             display: block;
             width: 100%;
             height: auto;
         }
-
-        @media only screen and (max-width:800px) {
-            .flex-item {
-                width: 30.33%;
-            }
-        }
-
-        @media only screen and (max-width:560px) {
-            .flex-item {
-                width: 45%;
-            }
-        }
-
-        @media only screen and (max-width:360px) {
-            .flex-item {
-                width: 100%;
-            }
-        }
-
         .about {
             width: 100%;
             height: 500px;
@@ -76,7 +53,6 @@
             position: absolute;
             z-index: 10;
         }
-
         .about3 {
             width: 100%;
             height: 200px;
@@ -85,14 +61,12 @@
             position: absolute;
             z-index: 10;
         }
-
         .about2 {
             width: 50%;
             height: 500px;
             background-color: black;
             z-index: 10;
         }
-
         .about4 {
             width: 20%;
             height: 200px;
@@ -101,19 +75,16 @@
             margin-left: 80%;
             margin-top:
         }
-
         .logo {
             width: 60%;
             margin-left: 20%;
             margin-top: 190px;
         }
-
         h1.intro {
             color: white;
             margin-top: 90px;
             margin-left: 17%;
         }
-
         h1.texttitle {
             margin-left: 53%;
             color: white;
@@ -121,7 +92,6 @@
             position: absolute;
             text-align:center;
         }
-
         p.text {
             color: white;
             margin-left: 70%;
@@ -131,36 +101,30 @@
             width: 40%;
             font-size: 25px;
         }
-
         .pictures {
             margin-top: 500px;
         }
-
         h2 {
            font-family: 'Kadwa', serif;
             margin-left:10%;
             font-weight:900;
             font-size:30px;
         }
-
         body {
             overflow-x: hidden;
             margin: 0;
         }
-
         img.next {
             width: 35%;
             margin-left: 30%;
             margin-top: 55px;
         }
-
         h1.next {
             color: white;
             position: absolute;
             margin-top: -120px;
             margin-left: 30%;
         }
-
         img.back {
             position: absolute;
             z-index: 30;
@@ -168,7 +132,6 @@
             margin-top: 55px;
             margin-left: 20px;
         }
-
         ul {
             font-size: 40px;
             margin-left: 59%;
@@ -177,66 +140,22 @@
             font-family: 'Quicksand', sans-serif;
         }
         
-        .flex-box {
-            width: 100%;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            margin-top: 500px;
-            margin-left:13%;
-        }
-        
-        .flex-box2 {
-            width: 100%;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            margin-top: 600px;
-            margin-left:11%;
-        }
-
-        .flex-item {
-            display: inline-block;
-            width: 20%;
-            height: auto;
-            margin: 2.5%;
-            min-width: 150px;
-            position: relative;
-            overflow: hidden;
-        }
-        
-         .flex-item2 {
-            display: inline-block;
-            width: 35%;
-            height: auto;
-            margin: 2.5%;
-            min-width: 150px;
-            position: relative;
-            overflow: hidden;
-        }
 
         .flex-item img {
             display: block;
             width: 100%;
             height: auto;
         }
-
-        @media only screen and (max-width:800px) {
+        @media only screen and (max-width:800px) 
             .flex-item {
                 width: 30.33%;
             }
         }
-
         @media only screen and (max-width:560px) {
             .flex-item {
                 width: 45%;
             }
         }
-
         @media only screen and (max-width:360px) {
             .flex-item {
                 width: 100%;
@@ -292,9 +211,17 @@
         img.team{
             margin-left:20%;
         }
-        
-       
-
+        @media only screen and (max-width: 1000px) {
+       .about{
+	   width:125%;
+	   }
+	   .listtext{
+	   font-size:200%;
+	   }
+	   body{
+	   margin-right:-25%;
+	   }
+	   }
     </style>
 </head>
 
@@ -306,9 +233,9 @@
     <div class="about">
         <div class="about2">
             <h1 class="intro">Who are We?</h1><img class="logo" src="logo.png"></div>
-        <h1 class="texttitle">Our Products will Blow Your Mind 💥</h1>
+        <h1 class="texttitle">Our Products will Blow Your Mind ??</h1>
         <p class="text">What We Do:</p>
-        <ul>
+        <ul class="listtext">
             <li>Artificial Intellegence</li>
             <li>Neural Networks</li>
             <li>Powerful Hardware</li>
