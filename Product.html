@@ -1,384 +1,223 @@
 <html>
-
-<head>
-    <title>Crib Home</title>
-   <link href="https://fonts.googleapis.com/css?family=Kadwa:700|Quicksand" rel="stylesheet">
-    <style>
-        div.hero {
-            background-image: url("concept.jpg");
-            width: 100%;
-            height: 600px;
-            background-attachment: fixed;
-            background-position: bottom;
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0.8;
-            filter: alpha(opacity=50);
-        }
-
-        h1 {
-            font-family: 'Quicksand', sans-serif;
-            z-index: 10;
-            position: absolute;
-            margin-left: 36%;
-            font-size: 45px;
-            margin-top: 300px;
-            color:black;
-        }
-
-        .flex-box {
-            width: 100%;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-        }
-
-        .flex-item {
-            display: inline-block;
-            width: 20%;
-            height: auto;
-            margin: 2.5%;
-            min-width: 150px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .flex-item img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
-        @media only screen and (max-width:800px) {
-            .flex-item {
-                width: 30.33%;
-            }
-        }
-
-        @media only screen and (max-width:560px) {
-            .flex-item {
-                width: 45%;
-            }
-        }
-
-        @media only screen and (max-width:360px) {
-            .flex-item {
-                width: 100%;
-            }
-        }
-
-        .about {
-            width: 100%;
-            height: 500px;
-            background-color: cornflowerblue;
-            margin-top: -15px;
-            position: absolute;
-            z-index: 10;
-        }
-
-        .about3 {
-            width: 100%;
-            height: 200px;
-            background-color: black;
-            margin-top: 80px;
-            position: absolute;
-            z-index: 10;
-        }
-
-        .about2 {
-            width: 50%;
-            height: 500px;
-            background-color: black;
-            z-index: 10;
-        }
-
-        .about4 {
-            width: 20%;
-            height: 200px;
-            background-color: cornflowerblue;
-            z-index: 10;
-            margin-left: 80%;
-            margin-top:
-        }
-
-        .logo {
-            width: 60%;
-            margin-left: 20%;
-            margin-top: 190px;
-        }
-
-        h1.intro {
-            color: white;
-            margin-top: 90px;
-            margin-left: 17%;
-        }
-
-        h1.texttitle {
-            margin-left: 62%;
-            color: white;
-            margin-top: -400px;
-            position: absolute;
-        }
-
-        p.text {
-            color: white;
-            margin-left: 70%;
-            font-family: 'Quicksand', sans-serif;
-            position: absolute;
-            margin-top: -320px;
-            width: 40%;
-            font-size: 25px;
-        }
-
-        .pictures {
-            margin-top: 500px;
-        }
-
-        h2 {
-           font-family: 'Kadwa', serif;
-            margin-left:10%;
-            font-weight:900;
-            font-size:30px;
-        }
-
-        body {
-            overflow-x: hidden;
-            margin: 0;
-        }
-
-        img.next {
-            width: 35%;
-            margin-left: 30%;
-            margin-top: 55px;
-        }
-
-        h1.next {
-            color: white;
-            position: absolute;
-            margin-top: -120px;
-            margin-left: 30%;
-        }
-
-        img.back {
-            position: absolute;
-            z-index: 30;
-            width: 5%;
-            margin-top: 55px;
-            margin-left: 20px;
-        }
-
-        ul {
-            font-size: 40px;
-            margin-left: 59%;
-            color: white;
-            margin-top: -270px;
-            font-family: 'Quicksand', sans-serif;
-        }
-        
-        .flex-box {
-            width: 100%;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            margin-top: 500px;
-            margin-left:13%;
-        }
-        
-        .flex-box2 {
-            width: 100%;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            margin-top: 0px;
-            margin-left:6%;
-        }
-
-        .flex-item {
-            display: inline-block;
-            width: 20%;
-            height: auto;
-            margin: 2.5%;
-            min-width: 150px;
-            position: relative;
-            overflow: hidden;
-        }
-        
-         .flex-item2 {
-            display: inline-block;
-            width: 40%;
-            height: auto;
-            margin: 2.5%;
-            min-width: 150px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .flex-item img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
-        @media only screen and (max-width:800px) {
-            .flex-item {
-                width: 30.33%;
-            }
-        }
-
-        @media only screen and (max-width:560px) {
-            .flex-item {
-                width: 45%;
-            }
-        }
-
-        @media only screen and (max-width:360px) {
-            .flex-item {
-                width: 100%;
-            }
-        }
-        
-        div.price{
-            background-color: cornflowerblue;
-            color:white;
-            padding:100px;
-            width:30%;
-            margin-left:32%;
-            font-family: 'Quicksand', sans-serif;
-        }
-        
-        h1.pricetext{
-            z-index:10;
-            color:white;
-            margin-left:120px;
-            position:absolute;
-            margin-top:-30px;
-        }
-        
-        h1.ReviewTitle{
-            font-family: 'Kadwa', serif;
-            position:absolute;
-            margin-top:10px;
-            margin-left:30%;
-        }
-        
-        h1.ReviewTitle2{
-            font-family: 'Kadwa', serif;
-            position:absolute;
-            margin-top:10px;
-            margin-left:25%;
-        }
-        
-        .flex-item3{
-            display: inline-block;
-            width: 40%;
-            height: 400px;
-            margin: 2.5%;
-            min-width: 150px;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 5px 10px 18px #888888;
-            border: 10px solid;
-            font-family: 'Kadwa', serif;
-        }
-        
-        img.stars{
-            position:absolute;
-            margin-top:100px;
-            margin-left:30%;
-        }
-        
-        p.review{
-            position:absolute;
-            margin-top:200px;
-            padding:50px;
-        }
-        
-        
-
-    </style>
-</head>
-
-<body>
-    <h1>Welcome Home!</h1>
-    <a href="index.html"><img src="back.png" class="back"></a>
-    <div class="hero"></div>
-
-    <div class="about">
-        <div class="about2">
-            <h1 class="intro">Introducing...</h1><img class="logo" src="logo_home.png"></div>
-        <h1 class="texttitle">You'll Fall in Love ðŸ˜</h1>
-        <p class="text">Features:</p>
-        <ul>
-            <li>4k Resolution Screen</li>
-            <li>360 Degree Sound</li>
-            <li>Smart IR Blaster</li>
-            <li>Intellegent Assistant</li>
-        </ul>
-    </div>
-
-        <div class="flex-box">
-
-            <div class="flex-item">
-                <img src="lamp2.jpg">
-               <h2>Control Your Devices.</h2>
-            </div>
-            
-
-            <div class="flex-item">
-                <img src="tv2.jpg">
-                <h2>Control Your Media.</h2>
-            </div>
-            
-
-            <div class="flex-item">
-                <img src="cal.jpg">
-                <h2>Control Your Life.</h2>
-            </div>
-        </div>
-    
-    <div class="flex-box2">
-
-            <div class="flex-item2">
-                <img src="concept2.jpg">
-               
-            </div>
-
-            <div class="flex-item2">
-                <img src="concept4.jpg">
-            </div>
-        </div>
-    
-    <div class="flex-box2">
-
-            <div class="flex-item3">
-                <b><h1 class="ReviewTitle">Great Product</h1></b>
-                <img class="stars" src="reviews.jpg">
-                <p class="review">This product changes the way I lived my life. It made me more productive and I would strongly recommend it to everyone.</p>
-               
-            </div>
-
-            <div class="flex-item3">
-                <b><h1 class="ReviewTitle2">AWESOME DEVICE!</h1></b>
-                <img class="stars" src="reviews.jpg">
-                <p class="review">The build quality on this device is the best I have seen. The 4K screen and the booming speakers make it the best available option.</p>
-            </div>
-        </div>
-    
-    
-    
-<div class="price"><h1 class="pricetext">Price: $120 USD</h1></div>
-
-
-        <div class="about3">
-            <a href="resources.html"><div class="about4"><img src="forward.png" class="next"></div></a>
-            <h1 class="next">Resources</h1>
-        </div>
-</body>
-
+	<head>
+		<title>AI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Kadwa:700|Quicksand" rel="stylesheet">
+		<style>
+			body, html
+			{
+				font-family:'Quicksand', sans-serif;
+				font-size:125%;
+				margin:0;
+				padding:0;
+			}
+			header
+			{
+				background-image: url("building.jpg");
+				background-attachment: fixed;
+            			background-repeat: no-repeat;
+				opacity: 0.8;
+            			background-size: cover;
+				width:100%;
+				height:15em;
+			}
+			.back
+			{
+				width:5%;
+			}
+			.forward
+			{
+				width:15%;
+			}
+			.titletext
+			{
+				height:1em;
+				width:100%;
+				text-align:center;
+			}
+			article
+			{
+				color:white;
+				width:100%;
+				height:20em;
+				text-align:center;
+			}
+			.aboutleft
+			{
+				background-color:black;
+				width:50%;
+				float:left;
+				height:15em;
+			}
+			.aboutright
+			{
+				background-color:cornflowerblue;
+				width:50%;
+				height:15em;
+				float:left;
+			}
+			.logo
+			{
+				width:40%;
+			}
+			aside
+			{
+				text-align:center;
+			}
+			.bottombar
+			{
+				width:100%;
+				height:8em;
+				text-align:center;
+				margin-top:5%;
+				float:left;
+				padding-top:2em;
+			}
+			.bottomtext
+			{
+				width:70%;
+				float:left;
+				padding-top:2em;
+				height:8em;
+				background-color:black;
+				color:white;
+			}
+			.bottomarrow
+			{
+				width:30%;
+				padding-top:2em;
+				float:left;
+				height:8em;
+				background-color:cornflowerblue;
+			}
+			.picbox
+			{
+				width:30%;
+				float:left;
+				text-align:center;
+			}
+			.picbox:first-child
+			{
+				margin-left:5%;
+			}
+			.ratebox
+			{
+				margin-left:7%;
+				text-align:center;
+				width:39%;
+				border-style:solid;
+				border-width:3px;
+				float:left;
+			}
+			@media only screen and (max-width: 1000px) {
+				.aboutleft
+			{
+				background-color:black;
+				width:100%;
+				float:left;
+				height:15em;
+			}
+			.aboutright
+			{
+				background-color:cornflowerblue;
+				width:100%;
+				height:15em;
+				float:left;
+			}
+			.bottomtext
+			{
+				width:70%;
+				float:left;
+				padding-top:2em;
+				height:8em;
+				display:none;
+				background-color:black;
+				color:white;
+			}
+			.bottomarrow
+			{
+				width:100%;
+				padding-top:2em;
+				float:left;
+				height:8em;
+				background-color:cornflowerblue;
+			}
+			.back
+			{
+				width:20%;
+			}
+			.forward
+			{
+				width:40%;
+			}
+			.picbox{
+				width:100%;
+			}
+			img
+			{
+				width:90%;
+			}
+			.ratebox
+			{
+				margin:0%;
+				text-align:center;
+				width:90%;
+				border-width:0;
+			}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav><a href="index.html"><img src="back.png" class="back"></a></nav>
+			<div class="titletext"><h1>Crib Home</h1></div>
+		</header>
+		<article>
+			<div class="aboutleft">
+				<h2>Introducing</h2>
+				<img src="logo_home.png" alt="Crib" class="logo">
+			</div>
+			<div class="aboutright">
+				<h2>Features:</h2>
+				<ul>
+					<li>4k Resolution Screen</li>
+					<li>360 Degree Sound</li>
+					<li>Smart IR Blaster</li>
+					<li>Intellegent Assistant</li>
+				</ul>
+			</div>
+		</article>
+		<aside>
+			<div class="picbox">
+				<img src="lamp2.jpg">
+				<h2>Control Your Devices.</h2>
+			</div>
+			<div class="picbox">
+				<img src="tv2.jpg">
+				<h2>Control Your Media.</h2>
+			</div>
+			<div class="picbox">
+				<img src="cal.jpg">
+				<h2>Control Your Life.</h2>
+			</div>
+			<div class="ratebox">
+				<h1>Great Product</h1>
+				<img src="reviews.jpg">
+				<p>This product changes the way I lived my life. It made me more productive and I would strongly recommend it to everyone.</p>
+			</div>
+			<div class="ratebox">
+				<h1>AWESOME DEVICE!</h1>
+				<img src="reviews.jpg">
+				<p>The build quality on this device is the best I have seen. The 4K screen and the booming speakers make it the best available option.</p>
+			</div>
+		</aside>
+		<div class="bottombar">
+			<div class="bottomtext">
+				<h1>Resources</h1>
+			</div>
+			<div class="bottomarrow">
+				<img src="forward.png" class="forward">
+			</div>
+		</div>
+	</body>
 </html>
